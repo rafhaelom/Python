@@ -3,5 +3,5 @@
 # seu salário no referido mês.
 
 ganhaHr = float(input("Quanto ganha por hora: "))
-numHr = float(input("Quantas horas trabalhou por mes: "))
-print("Seu salario no final do mes eh: ", ganhaHr * numHr)
+numHr = float(input("Quantas horas trabalhou no mes: "))
+print("Seu salario do mes eh: ", ganhaHr * numHr)
