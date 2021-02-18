@@ -7,9 +7,12 @@
 # programa com as mensagens adequadas.
 
 limite_peso = 50.00
+valor_multa = 4.00
 peso = float(input("Informe o Peso de Peixes: "))
 if (peso > limite_peso):
     excesso = float(peso - limite_peso)
-    print(f"Peso excedeu o limite de 50.00 Kg, excesso foi de: {excesso}")
+    multa = float(valor_multa * excesso)
+    print(f"Peso excedeu o limite de 50.00 Kg, o excesso foi de: {excesso}Kg")
+    print(f"João você deverá pagar uma multa de R${multa}")
 else:
-    print(peso)
+    print(f"Peso esta dentro do limite, o peso foi de: {peso}Kg")
