@@ -4,9 +4,9 @@
 
 letra = str(input("Digite (F)-Feminino, (M)-Masculino: ").upper())
 
-if letra == "F":
+if(letra == "F"):
     print("F - Feminino")
-elif letra == "M":
+elif(letra == "M"):
     print("M - Masculino")
 else:
     print("Sexo Inválido")
