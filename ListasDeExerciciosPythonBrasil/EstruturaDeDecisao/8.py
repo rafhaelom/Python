@@ -21,3 +21,5 @@ elif(prod3 == prod1 or prod3 == prod2):
     print(f"Dois são do mesmo preço e mais barato: R$ {prod1}")
 elif(prod1 == prod2 and prod1 == prod3):
     print("Todos são do mesmo preço!")
+else:
+    print("Preço inválido!")
