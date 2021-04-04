@@ -2,7 +2,7 @@
 """
 Created on Thu Apr  1 13:16:27 2021
 
-@author: Rafhael de Oliveiora Martins
+@author: Rafhael de Oliveira Martins
 """
 
 #%% Importando Bibliotecas
