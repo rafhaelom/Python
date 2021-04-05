@@ -11,3 +11,29 @@ baseado no salário atual:
 - o valor do aumento;
 - o novo salário, após o aumento.'''
 
+salarioAtual = float(input("Informe seu salário: "))
+aumento_20 = 20/100
+aumento_15 = 15/100
+aumento_10 = 10/100
+aumento_5 = 5/100
+
+if(salarioAtual <= 280.00):
+    print("O salário antes do reajuste: R$ {0:.2f}".format(salarioAtual))
+    print("O percentual de aumento aplicado: {0:2.0%}".format(aumento_20))
+    print("O valor do aumento: R$ {0:.2f}".format(salarioAtual * aumento_20))
+    print("O novo salário, após o aumento: R$ {0:.2f}".format(salarioAtual + (salarioAtual * aumento_20)))
+elif(salarioAtual >= 280.00 and salarioAtual <= 700.00):
+    print("O salário antes do reajuste: R$ {0:.2f}".format(salarioAtual))
+    print("O percentual de aumento aplicado: {0:2.0%}".format(aumento_15))
+    print("O valor do aumento: R$ {0:.2f}".format(salarioAtual * aumento_15))
+    print("O novo salário, após o aumento: R$ {0:.2f}".format(salarioAtual + (salarioAtual * aumento_15)))
+elif(salarioAtual >= 700.00 and salarioAtual <= 1500.00):
+    print("O salário antes do reajuste: R$ {0:.2f}".format(salarioAtual))
+    print("O percentual de aumento aplicado: {0:2.0%}".format(aumento_10))
+    print("O valor do aumento: R$ {0:.2f}".format(salarioAtual * aumento_10))
+    print("O novo salário, após o aumento: R$ {0:.2f}".format(salarioAtual + (salarioAtual * aumento_10)))
+elif(salarioAtual > 1500.00):
+    print("O salário antes do reajuste: R$ {0:.2f}".format(salarioAtual))
+    print("O percentual de aumento aplicado: {0:2.0%}".format(aumento_5))
+    print("O valor do aumento: R$ {0:.2f}".format(salarioAtual * aumento_5))
+    print("O novo salário, após o aumento: R$ {0:.2f}".format(salarioAtual + (salarioAtual * aumento_5)))
