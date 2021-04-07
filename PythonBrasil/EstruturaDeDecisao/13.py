@@ -11,11 +11,11 @@ elif (dia == 3):
     print("Terça")
 elif (dia == 4):
     print("Quarta")
-elif (dia ==5):
+elif (dia == 5):
     print("Quinta")
-elif (dia ==6):
+elif (dia == 6):
     print("Sexta")
-elif (dia ==7):
+elif (dia == 7):
     print("Sábado")
 else:
     print("Valor Inválido!")
