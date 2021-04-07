@@ -37,3 +37,5 @@ elif(salarioAtual > 1500.00):
     print("O percentual de aumento aplicado: {0:2.0%}".format(aumento_5))
     print("O valor do aumento: R$ {0:.2f}".format(salarioAtual * aumento_5))
     print("O novo salário, após o aumento: R$ {0:.2f}".format(salarioAtual + (salarioAtual * aumento_5)))
+else:
+    print("Valor incorreto!")
