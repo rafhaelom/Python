@@ -170,7 +170,7 @@ cadastrarButton.place(x=300, y=355, height=30)
 print("\nAbrindo e criando conexão com o Banco!\n")
 # Conecção com o Banco de Dados PostgreSQL
 DB_HOST = "localhost"
-DB_USER = "username"
+DB_USER = "user_name"
 DB_PASS = "password"
 DB_NAME = "postgres"
 
